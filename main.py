@@ -14,12 +14,12 @@ def main():
     print("=== House Price Prediction Pipeline ===")
     
     # 1. Load Data
-    print("\nLoading data...")
+    print("\nLoading data..")
     df = load_data("data/house_prices_extended.csv")
     print(df.head())
     
     # 2. Preprocess Data
-    print("\nPreprocessing data...")
+    print("\nPreprocessing data..")
     df_clean = clean_data(df)
     
     # Generate Heatmap before encoding (or after, depending on preference)
